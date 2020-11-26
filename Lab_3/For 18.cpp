@@ -16,7 +16,6 @@ int main()
 	double sum = 1, p = 1;
 	for (int i = 0; i < n; i++)
 	{
-
 		p *= a * (-1);
 		sum += p;
 	}
