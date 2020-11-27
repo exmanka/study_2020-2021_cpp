@@ -1,4 +1,7 @@
+// Ким Михаил НФИбд-01-20
+
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main()
@@ -13,11 +16,10 @@ int main()
 	int n;
 	cin >> n;
 
-	double sum = 1, p = 1;
-	for (int i = 0; i < n; i++)
+	double sum = 0;
+	for (int p = 0; p <= n; p++)
 	{
-		p *= a * (-1);
-		sum += p;
+		sum += pow(-1, p) * pow(a, p);
 	}
 
 	cout << "Значение выражения: " << sum << endl;
