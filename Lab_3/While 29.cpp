@@ -1,3 +1,5 @@
+// Ким Михаил НФИбд-01-20
+
 #include <iostream>
 #include <cmath>
 using namespace std;
